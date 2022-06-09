@@ -1,0 +1,296 @@
+body{
+    background-color: black;
+}
+
+p, span{
+    color: white;
+    font-size: 300%;
+}
+
+.sun{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: orange;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 50;
+    box-shadow: 0px 0px 100px orangered;
+}
+
+.mercury{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: mercury 0.88s infinite linear;
+    z-index: 50;
+}
+
+.venus{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: venus 2.25s infinite linear;
+    z-index: 50;
+}
+
+.earth{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: earth 3.65s infinite linear;
+    z-index: 50;
+}
+
+.mars{
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: mars 6.87s infinite linear;
+    z-index: 50;
+}
+
+.jupiter{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: sandybrown;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: jupiter 43.33s infinite linear;
+    z-index: 50;
+}
+
+.saturn{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: sienna;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: saturn 107.67s infinite linear;
+    z-index: 50;
+}
+
+.uranus{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: uranus 307.69s infinite linear;
+    z-index: 50;
+}
+
+.neptune{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    animation: neptune 601.52s infinite linear;
+    z-index: 50;
+}
+
+@keyframes mercury{
+    0%{transform: rotate(0deg) translate(80px)}
+    100%{transform: rotate(360deg) translate(80px)}
+}
+
+@keyframes venus{
+    0%{transform: rotate(0deg) translate(100px)}
+    100%{transform: rotate(360deg) translate(100px)}
+}
+
+@keyframes earth{
+    0%{transform: rotate(0deg) translate(130px)}
+    100%{transform: rotate(360deg) translate(130px)}
+}
+
+@keyframes mars{
+    0%{transform: rotate(0deg) translate(160px)}
+    100%{transform: rotate(360deg) translate(160px)}
+}
+
+@keyframes jupiter{
+    0%{transform: rotate(0deg) translate(210px)}
+    100%{transform: rotate(360deg) translate(210px)}
+}
+
+@keyframes saturn{
+    0%{transform: rotate(0deg) translate(260px)}
+    100%{transform: rotate(360deg) translate(260px)}
+}
+
+@keyframes uranus{
+    0%{transform: rotate(0deg) translate(300px)}
+    100%{transform: rotate(360deg) translate(300px)}
+}
+
+@keyframes neptune{
+    0%{transform: rotate(0deg) translate(340px)}
+    100%{transform: rotate(360deg) translate(340px)}
+}
+
+.meorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.veorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 200px;
+    height: 200px; 
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.eaorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.maorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.juorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 420px;
+    height: 420px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.saorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 520px;
+    height: 520px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.urorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.neorbit{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 680px;
+    height: 680px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+p{
+    display: none;
+    position: static;
+}
+
+span:hover + p{
+    display: block;
+}
