@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(101, 162, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0.2em 0;
+}
+
+nav {
+    background: greenyellow;
+    margin: 0.5em 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: green;
+    font-size: 5em;
+    padding: 0.4em 0.4em;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 500ms ease-in-out;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+table{
+    margin: 1em 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: black 1px solid;
+    padding: 0.25em 0.5em;
+}
+
+table tr:first-child td{
+    border-top: black 1px solid;
+}
+
+table tr:nth-child(2n) td{
+    background: rgba(0, 0, 0, 0.2);
+}
