@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(127, 199, 127);
+}
+
+h1{
+    text-align: center;
+    font-size: 600%;
+    background-color: green;
+}
+
+h2{
+    margin: 2%;
+    font-size: 200%;
+}
+
+img{
+    position: absolute;
+    float: left;
+}
+
+p{
+    font-size: 300%;
+    flex-wrap: wrap;
+    margin: 2%;
+    background-color: green;
+    margin-left: 20%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    float: right;
+}
