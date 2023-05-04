@@ -81,7 +81,6 @@ p:hover{
     cursor: default;
     background-color: var(--color1);
     transition: all 0.2s ease-in-out 0s;
-    color: var(--color2);
 }
 
 a:hover{
