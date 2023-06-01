@@ -1,0 +1,64 @@
+:root{
+    --header-color: #282A35;
+    --header-text: #EBEBEB;
+    --footer-color: #FFF4A3;
+    --purple: #9763F6;
+    --pink: #FFC0C7;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.header{
+    background-color: var(--header-color);
+}
+
+.footer{
+    background-color: var(--footer-color);
+}
+
+.logo{
+    width: 75px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.headMain{
+    display: grid;
+    background-color: var(--header-color);
+}
+
+.mainMain{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.rightBox{
+    background-color: var(--pink);
+}
+
+.leftBox{
+    background-color: var(--purple);
+}
+
+.headText{
+    color: var(--header-text);
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.footMain{
+    background-color: var(--footer-color);
+}
