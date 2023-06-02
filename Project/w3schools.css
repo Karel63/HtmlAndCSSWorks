@@ -4,16 +4,14 @@
     --footer-color: #FFF4A3;
     --purple: #9763F6;
     --pink: #FFC0C7;
+    --MainText: 35px;
+    --SecundaryText: 25px;
+    --PlainText: 20px
 }
 
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.grid{
-    display: grid;
-    grid-template-rows: auto auto auto;
 }
 
 .header{
@@ -38,18 +36,24 @@ body{
 
 .mainMain{
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 30px;
-    margin: 20px;
     text-align: center;
+    color: var(--header-text);
 }
 
-.rightBox{
-    background-color: var(--pink);
+.imageMain{
+    background-image: url("competition2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.leftBox{
-    background-color: var(--purple);
+.leftBoxContents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.leftBoxText{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .headText{
@@ -60,5 +64,30 @@ body{
 }
 
 .footMain{
-    background-color: var(--footer-color);
+    display: grid;
+    background-color: var(--header-color);
+    color: var(--header-text);
+}
+
+h2{
+    font-size: var(--MainText);
+}
+
+h3{
+    font-size: var(--SecundaryText);
+}
+
+h4{
+    position: relative;
+    font-size: var(--SecundaryText);
+    margin-left: 10px;
+}
+
+p{
+    font-size: var(--PlainText);
+}
+
+img{
+    width: 353px;
+    height: 673px;
 }
