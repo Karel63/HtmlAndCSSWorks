@@ -2,6 +2,7 @@
 
 ## Popis
 - Je to reklamní stánka na kódovací soutěž pro frontend
+- Stránka je celá dělaná v angličtině
 - Všechny použité obrázky jsou veřejná doména
 
 ### competetion2.webp a ASUS.webp
