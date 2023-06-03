@@ -11,13 +11,13 @@
 - Ikona stránky
 
 ## Odkazy
-- Odkaz na HTML: [HTML](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/Tmobile/Sn%C3%ADmek%20obrazovky%202023-05-04%20115155.png)
-- Odkaz na CSS: [CSS](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/Tmobile/Sn%C3%ADmek%20obrazovky%202023-05-04%20115155.png)
+- Odkaz na HTML: [HTML](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/w3schools.html)
+- Odkaz na CSS: [CSS](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/w3schools.css)
 
 ## Obrázky
 - Lighthouse stránky
-![lighthouse](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/Tmobile/Sn%C3%ADmek%20obrazovky%202023-05-04%20115155.png)
+![lighthouse](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/pictures/lighthouse.png)
 - Stánka na PC
-![desktop](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/Tmobile/Sn%C3%ADmek%20obrazovky%202023-05-04%20115509.png)
+![desktop](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/pictures/desktop.png)
 - Stránka na Mobilu
-![mobile](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/Tmobile/Sn%C3%ADmek%20obrazovky%202023-05-04%20115300.png)
+![mobile](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/pictures/mobile.png)
