@@ -15,9 +15,6 @@
 - Odkaz na CSS: [CSS](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/w3schools.css)
 
 ## Obrázky
-- Lighthouse stránky
 ![lighthouse](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/pictures/lighthouse.png)
-- Stánka na PC
 ![desktop](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/pictures/desktop.png)
-- Stránka na Mobilu
 ![mobile](https://github.com/Karel63/HtmlAndCSSWorks/blob/main/w3schools/pictures/mobile.png)
