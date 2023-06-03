@@ -1,7 +1,8 @@
 # **W3Schools**
 
 ## Popis
-- Je to reklamní stánka na kódovací soutěž pro frontend
+- Místo projektu jsem se rozhodl udělat náhradní úkol, což je v tomto případě frontend stránka
+- Je to reklamní stánka na kódovací soutěž na frontend
 - Stránka je celá dělaná v angličtině
 - Všechny použité obrázky jsou veřejná doména
 
