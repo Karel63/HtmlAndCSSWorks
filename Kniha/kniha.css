@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.Title{
+    background-color: red;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.Title h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Title input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding-right: 150px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.Buttons{
+    background-color: darkred;
+    display: flex;
+    color: white;
+    gap: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.Buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 250px 1fr 3fr;
+    margin-top: 30px;
+}
+
+.Buttons2{
+    display: grid;
+    grid-template-rows: repeat(6, 50px);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.Buttons2 a{
+    color: black;
+    text-decoration: none;
+    background-color: lightgray;
+    text-align: center;
+    position: relative;
+    border: 1px solid darkblue;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+.ImgCover{
+    width: 350px;
+}
+
+.MainGrid{
+    display: grid;
+    padding-left: 50px;
+    grid-template-rows: 1fr 100px 1fr;
+}
+
+.MainDesc{
+    background-color: lightcoral;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+
+.MainPrice{
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    align-items: center;
+}
+
+.Price{
+    color: red;
+    font-size: 60px;
+}
+
+.Buy a{
+    display: flex;
+    background-color: red;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    font-size: 60px;
+    padding-left: 20px;
+    margin-right: 650px;
+    margin-bottom: 150px;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    font-size: 30px;
+    align-items: center;
+    gap: 10px;
+}
+
+.Icons{
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    width: 30px;
+    gap: 10px;
+    align-items: center;
+}
+
+.Buttons2 a:hover{
+    cursor: default;
+    color: white;
+    background-color: darkblue;
+    transition: 0.1s;
+}
+
+.Buy a:hover{
+    cursor: default;
+    color: white;
+    background-color: darkred;
+    transition: 0.1s;
+}
