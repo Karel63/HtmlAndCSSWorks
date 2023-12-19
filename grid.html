@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="../test/grid.css">
+</head>
+<body>
+    <div class="static">
+        <div>
+            <input id="number" type="number" max="16" min="0">
+        </div>
+        <div>
+            <script>
+                function grids(){
+                    let grid = "<div id='Sgrid' class='gridDiv'></div>"
+                    let num = document.getElementById("number").value
+                    let grids = ""
+                    for(let n = 0; n < num; n++){
+                        grids += "<div class='grid2'>"
+                        for(let n2 = 0; n2 < num; n2++){
+                            grids += grid + " "
+                        }
+                        grids += "</div>"
+                    }
+                    return document.getElementById("grid").innerHTML = grids;
+                }
+                function color(){
+                    let col = document.getElementById("Rcolor").value
+                }
+            </script>
+            <input onclick="grids()" id="but" type="button" value="Generate">
+        </div>
+        <div>
+            <input id="Rcolor" type="color">
+        </div>
+    </div>
+    <main id="grid" class="grid">
+
+    </main>
+</body>
+</html>
