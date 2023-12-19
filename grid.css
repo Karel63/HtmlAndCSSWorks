@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+.static{
+    display: flex;
+    align-items: baseline;
+    column-gap: 15px;
+}
+
+.grid2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.gridDiv{
+    border-width: 1px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+}
